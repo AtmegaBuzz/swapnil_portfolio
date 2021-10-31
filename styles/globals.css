@@ -116,16 +116,17 @@ nav ul li{
 }
 
 .particles{
-  position: absolute;
+  position: absolute !important;
   width: 100%;
   height: 100%;
-  z-index: 2;
+  z-index: 10;
 }
 
 
 
 .tsparticles-canvas-el{
   position: absolute !important;
+  z-index: inherit;
 }
 
 
