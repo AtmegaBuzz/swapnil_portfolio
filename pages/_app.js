@@ -27,6 +27,11 @@ export default function MyApp({Component,pageProps}){
                     src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
                     crossorigin="anonymous"
                     />
+                  <script 
+                    src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" 
+                    crossorigin="anonymous"
+                    />
+                
           </Head>
           <Component {...pageProps} />
     </>  
