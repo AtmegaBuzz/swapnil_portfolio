@@ -1,0 +1,34 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(235, 230, 230);
+    padding-top: 40px;
+    /* background-color:red; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Zen+Kurenaido&display=swap');
+.heading{
+    font-size: 3rem;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-transform: uppercase;
+    color: rgb(66, 57, 57);
+    cursor: pointer;
+}
+
+.servicesComp{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.items:hover{
+    width: 380px !important;
+    min-height: 470px !important;
+}
+
