@@ -33,10 +33,10 @@ export default function Header(){
             />
             <div className="shadow">
             <div className="main-info">
-                <h1>Web Devalopment and Wbsite Promotions</h1>
+                <h1>Welcome To My Personal Portfolio</h1>
                 <Typed
                     className="typed-text"
-                    strings={["React Js","Django Framework","Django Rest Framework","Web Scrapping"]}
+                    strings={["My Portfolio","React Js","Django Framework","Django Rest Framework","Web Scrapping"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop

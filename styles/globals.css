@@ -83,7 +83,7 @@ nav ul li{
 
 .main-info h1{
   color: var(--primary-orange);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .typed-text{

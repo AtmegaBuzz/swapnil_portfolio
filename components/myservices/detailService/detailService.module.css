@@ -91,3 +91,10 @@
     border: 1px solid white;
     transition: 0.2s all ease-in-out;
 }
+
+
+@media(max-width:562px){
+    .workCont{
+        width: 320px;
+    }
+}

@@ -58,8 +58,13 @@
     width: 40%;
     /* background-color: red; */
     display: flex;
-    justify-content: space-evenly;
+    margin-top: 20px;
+    /* justify-content: space-between; */
     
+}
+
+.sublinks{
+    margin-right: 20px;
 }
 
 .links .sublinks:hover{
@@ -113,6 +118,8 @@
     .links{
         width: 100%;
         margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
     }
 
     .image_cont{
