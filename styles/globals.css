@@ -122,6 +122,10 @@ nav ul li{
   z-index: 10;
 }
 
+.particles canvas{
+  position: absolute !important;
+  z-index: inherit;
+}
 
 
 .tsparticles-canvas-el{
