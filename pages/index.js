@@ -3,6 +3,7 @@ import Navbar from "../components/navbar/navbar";
 import Header from '../components/header/header';
 import About from '../components/about/about';
 import Services from '../components/myservices/services';
+import Skills from '../components/myskills/skills';
 
 export default function HomePage(){
 
@@ -15,6 +16,7 @@ export default function HomePage(){
       <Header/>
       <About/>
       <Services/>
+      <Skills/>
     </>
   );
 }
