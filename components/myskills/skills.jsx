@@ -48,7 +48,7 @@ export default function Skills(){
                     <div className={styles.infoheading}>My Skills and Experience</div>
                     <p className={styles.infotext}>Worked in Django and have a deep understanding of backend and web technologies such as Apis, token authentication, decentralized database, and security mechanisms, I also have a grip on the Next Js Framework for Seo Optimized web apps in the frontend. <br /><br /> Have a understanding of deploying the application in Microsoft Azure and Digital Ocean.</p>
                     <button className={styles.btn}>Read More</button>
-                </div>
+                </div> 
                 <div className={styles.dynamicskills}>
                     {
                         skills.map((data)=>{
