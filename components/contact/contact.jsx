@@ -1,5 +1,4 @@
-import styles from  '../styles/contact.module.css'
-import Navbar from '../components/navbar/navbar'
+import styles from  './contact.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useRef, useState } from 'react';
 
@@ -46,7 +45,6 @@ export default function Contact(){
 
     return(
         <>
-        <Navbar/>
         <div className={styles.contacts}>
 
             <div className={styles.contactCont}>

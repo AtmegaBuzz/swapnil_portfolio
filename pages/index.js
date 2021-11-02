@@ -4,6 +4,7 @@ import Header from '../components/header/header';
 import About from '../components/about/about';
 import Services from '../components/myservices/services';
 import Skills from '../components/myskills/skills';
+import Contact from '../components/contact/contact';
 
 export default function HomePage(){
 
@@ -17,6 +18,7 @@ export default function HomePage(){
       <About/>
       <Services/>
       <Skills/>
+      <Contact/>
     </>
   );
 }

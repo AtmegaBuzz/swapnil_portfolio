@@ -1,18 +1,26 @@
 import styles from './navbar.module.css'
+import stylesAbout from '../about/about.module.css';
+import stylesContact from '../contact/contact.module.css';
+import stylesMyservices from '../myservices/services.module.css';
+import stylesMyskills from '../myskills/skills.module.css';
+
 import MenuIcon from '@mui/icons-material/Menu';
-import Link from 'next/link'
+import {scroller} from 'react-scroller';
 
 export default function Navbar(){
 
     let scrollInfo = {
-        "home":0,
-        "about":522,
-        "services":1236,
-        "myskills":1842,
+        "home":"navbar-nav",
+        "about":stylesAbout.about,
+        "services":stylesMyservices.services,
+        "portfolio":stylesMyservices.services,
+        "myskills":stylesMyskills.skills,
+        "contact":stylesContact.contacts
     }
 
-    let scrollTo = (scollclass)=>{
-        window.scrollTo(0,scollclass);
+    let scrollTo = (whereTogo)=>{
+        let offset = document.getElementsByClassName(scrollInfo[whereTogo])[0].offsetTop
+        window.scrollTo(0,offset-100)
     }
 
     return(
@@ -25,24 +33,32 @@ export default function Navbar(){
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item active">
-                            <a onClick={scrollTo} className="nav-link" >Home</a>
+                            <a onClick={()=>{scrollTo("home")}} className="nav-link" >Home</a>
                         </li>
                         <li className="nav-item">
-                            <a onClick={scrollTo}  className="nav-link">about me</a>
+
+                            <a onClick={()=>scrollTo("about")}  className="nav-link">about me</a>
+
                         </li>
                         <li className="nav-item">
-                            <a onClick={scrollTo}  className="nav-link">services</a>
+
+                            <a onClick={()=>scrollTo("services")}  className="nav-link">services</a>
+
                         </li>
                         <li className="nav-item">
-                            <a onClick={scrollTo}  className="nav-link">how work</a>
+ 
+                            <a onClick={()=>scrollTo("myskills")}  className="nav-link">how work</a>
+
                         </li>
                         <li className="nav-item">
-                                <a onClick={scrollTo}  className="nav-link">portfolio</a>      
+
+                            <a onClick={()=>scrollTo("portfolio")}  className="nav-link">portfolio</a>      
+
                         </li>
                         <li className="nav-item">
-                            <Link href="/contact">
-                                <a onClick={scrollTo}  className="nav-link">contact</a>
-                            </Link>
+
+                                <a onClick={()=>scrollTo("contact")}  className="nav-link">contact</a>
+
                         </li>
                     </ul>
                 </div>

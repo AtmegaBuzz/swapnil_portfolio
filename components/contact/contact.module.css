@@ -99,7 +99,7 @@
     height: 174px;
 }
 .form form textarea:focus{
-    /* border-bottom: 2px solid rgb(253, 215, 0); */
+    border-bottom: 2px solid rgb(253, 215, 0);
     caret-color: rgb(253, 215, 0);
     transition: all .2s ease-in-out;
     outline: 0;
