@@ -90,3 +90,15 @@
 .git p a{
     color: rgb(182, 140, 4);
 }
+
+@media(max-width:775px){
+    .portfolio{
+        width: 90%;
+    }
+    .heading p{
+        font-size: 0.9rem;
+    }
+    .info{
+        font-size: 0.8rem;
+    }
+}
