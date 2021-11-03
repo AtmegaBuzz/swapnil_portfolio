@@ -5,7 +5,7 @@ import About from '../components/about/about';
 import Services from '../components/myservices/services';
 import Skills from '../components/myskills/skills';
 import Contact from '../components/contact/contact';
-
+import Portfolio from '../components/portfolio/portfolio';
 export default function HomePage(){
 
 
@@ -18,6 +18,7 @@ export default function HomePage(){
       <About/>
       <Services/>
       <Skills/>
+      <Portfolio/>
       <Contact/>
     </>
   );

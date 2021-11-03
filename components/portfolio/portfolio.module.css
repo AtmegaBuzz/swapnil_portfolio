@@ -1,0 +1,83 @@
+.portfolio{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(233, 230, 230);
+    padding-top: 40px;
+}
+.heading p{
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(48, 35, 51);
+}
+
+.imgContainer {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.img {
+    flex: 1;
+    height: 100%;
+    margin: 1px;
+    transition: all 0.5s ease-in;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.img:hover {
+    flex: 7;
+}
+.img p {
+    opacity: 0;
+    transform: rotate(-90deg);
+    transition: all 0.3s ease-in;
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+    color: white;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 6px;
+    background: rgba(0, 0, 0, .8);
+}
+.img:hover p {
+    transform: rotate(0deg);
+    left: 5px;
+    opacity: 1;
+}
+.img1 {
+    background-image: url('https://placeimg.com/1000/1000/arch');
+}
+.img2 {
+    background-image: url('https://placeimg.com/1000/1000/nature');
+}
+.img3 {
+    background-image: url('https://placeimg.com/1000/1000/animals');
+}
+.img4 {
+    background-image: url('https://placeimg.com/1000/1000/people');
+}
+.img5 {
+    background-image: url('https://placeimg.com/1000/1000/tech');
+}
+@media (min-width: 768px) {
+    .img-container {
+        flex-direction: row;
+   }
+    .img {
+        transform: skew(-4deg);
+   }
+   
+}
+
+@media(max-width:603px) {
+    .imgContainer{
+        flex-direction: column;
+    }
+}

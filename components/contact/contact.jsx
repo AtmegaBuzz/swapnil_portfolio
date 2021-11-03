@@ -63,7 +63,7 @@ export default function Contact(){
                         </div>
                         <div className={styles.right}>
                             <textarea ref={descRef} value={desc} onChange={(e)=>{setDesc(e.target.value)}} name="desc" id="" cols="30" rows="10" placeholder="Please describe your project in brief."></textarea>
-                            <button type="submit" class={styles.btn}>Read More</button>
+                            <button type="submit" className={styles.btn}>Contact Me</button>
                         </div>
                         
                     </form>
