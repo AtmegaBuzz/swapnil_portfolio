@@ -57,7 +57,7 @@ export default function Navbar(){
 
                         </li>
                         <li className="nav-item">
-                            <a onClick={(e)=>scrollTo("myskills",e)}  className="nav-link">how work</a>
+                            <a onClick={(e)=>scrollTo("myskills",e)}  className="nav-link">My Skills</a>
                         </li>
                         <li className="nav-item">
 
