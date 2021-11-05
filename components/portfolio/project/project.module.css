@@ -18,6 +18,7 @@
     height: 50%;
     background-size:cover;
     align-items: center;
+    background-position: center;
 }
 
 .info{
