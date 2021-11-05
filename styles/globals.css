@@ -129,9 +129,9 @@ nav ul li{
   z-index: 10;
 }
 
-.particles canvas{
+.particles > canvas{
   position: absolute !important;
-  z-index: inherit;
+  z-index: inherit !important;
 }
 
 
