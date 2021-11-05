@@ -45,10 +45,10 @@ nav{
   
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dancing+Script:wght@400;500&family=Fruktur&family=Open+Sans:wght@300&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dancing+Script:wght@400;500&family=Fruktur&family=Open+Sans:wght@300&family=Red+Hat+Mono:ital,wght@1,300&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Zen+Antique&display=swap');
 .headingCont span{
   font-size: 1.2rem;
-  font-family: 'Fruktur', cursive;
+  font-family: 'Red Hat Mono', monospace;
 }
 
 nav a.nav-link{
