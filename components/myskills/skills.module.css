@@ -116,13 +116,15 @@
         display: flex;
         padding: 0;
     }
+    .infoheading{
+        font-size: 1.7rem;
+
+    }
     .infoheading,.infotext{
         text-align: center;
         width: 100%;
     }
-    .infotext{
-        padding: 20px;
-    }
+    
     .dynamicskills{
         display: flex;
         width: 100%;
