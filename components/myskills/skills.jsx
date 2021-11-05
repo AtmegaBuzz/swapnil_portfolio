@@ -32,6 +32,11 @@ export default function Skills(){
         }
     ]
 
+
+    let redirectProtfolio = ()=>{
+        window.location.href = "https://github.com/AtmegaBuzz"
+    }
+    
     return(
         <div className={styles.skills}>
             <div className={styles.heading}>
@@ -47,7 +52,7 @@ export default function Skills(){
                 <div className={styles.textskills}>
                     <div className={styles.infoheading}>My Skills and Experience</div>
                     <p className={styles.infotext}>Worked in Django and have a deep understanding of backend and web technologies such as Apis, token authentication, decentralized database, and security mechanisms, I also have a grip on the Next Js Framework for Seo Optimized web apps in the frontend. <br /><br /> Have a understanding of deploying the application in Microsoft Azure and Digital Ocean.</p>
-                    <button className={styles.btn}>Read More</button>
+                    <button className={styles.btn} onClick={redirectProtfolio}>Read More</button>
                 </div> 
                 <div className={styles.dynamicskills}>
                     {
