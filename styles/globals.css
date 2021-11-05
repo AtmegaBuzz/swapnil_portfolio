@@ -25,6 +25,32 @@ nav{
   top: 0 !important;
 }
 
+.navbar-brand{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+.navbar-brand img{
+  border-radius: 50px;
+  margin-right: 3px;
+}
+.headingCont{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dancing+Script:wght@400;500&family=Fruktur&family=Open+Sans:wght@300&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Zen+Antique&display=swap');
+.headingCont span{
+  font-size: 1.2rem;
+  font-family: 'Fruktur', cursive;
+}
+
 nav a.nav-link{
   font-size: 0.8rem;
   letter-spacing: 0.0375rem;

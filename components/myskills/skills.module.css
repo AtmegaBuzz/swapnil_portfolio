@@ -45,9 +45,6 @@
     align-self: center !important;
 }
 
-.line p:before{
-    content: "dshdjshd";
-}
 
 .info{
     display: flex;
@@ -66,7 +63,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dancing+Script:wght@400;500&family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dancing+Script:wght@400;500&family=Open+Sans:wght@300&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Zen+Antique&display=swap');
 .infoheading{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 700;
     font-family: 'Ceviche One', cursive;
 }
@@ -76,6 +73,7 @@
     margin-top: 16px;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 50px;
+    font-size: 0.9rem;
 }
 
 .btn{
