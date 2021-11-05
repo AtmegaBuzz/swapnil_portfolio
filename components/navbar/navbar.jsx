@@ -3,6 +3,7 @@ import stylesAbout from '../about/about.module.css';
 import stylesContact from '../contact/contact.module.css';
 import stylesMyservices from '../myservices/services.module.css';
 import stylesMyskills from '../myskills/skills.module.css';
+import stylesPortfolio from '../portfolio/portfolio.module.css'
 
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -12,9 +13,9 @@ export default function Navbar(){
         "home":"navbar-nav",
         "about":stylesAbout.about,
         "services":stylesMyservices.services,
-        "portfolio":stylesMyservices.services,
+        "portfolio":stylesPortfolio.portfolio,
         "myskills":stylesMyskills.skills,
-        "contact":stylesContact.contacts
+        "contact":stylesContact.contacts,
     }
 
     let scrollTo = (whereTogo,e)=>{

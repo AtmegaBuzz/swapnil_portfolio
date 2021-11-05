@@ -1,0 +1,77 @@
+
+.project{
+    width: 300px;
+    height: 450px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+}
+.Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-size:cover;
+    align-items: center;
+}
+
+.info{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.infoText{
+    width: 100%;
+    height: 80%;
+}
+
+.projectheading{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.text{
+    font-size: 0.9rem;
+    color: rgb(37, 36, 36);
+}
+
+.btn{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn button{
+    background: transparent;
+    width: 40%;
+    height: 80%;
+    border: 1px solid red;
+    border-radius: 6px;
+    font-weight: 600;
+    color: red;
+}
+
+.btn button:hover{
+    transition: 0.2s all linear;
+    background-color: red;
+    color: white;
+}
+
+@media(max-width:509px){
+    .project{
+        width: 100%;
+    }
+    .btn button{
+        font-size: 0.9rem;
+    }
+}

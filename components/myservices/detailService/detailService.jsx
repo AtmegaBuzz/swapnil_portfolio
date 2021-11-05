@@ -3,7 +3,9 @@ import Image from 'next/image'
 
 export default function DetailService(props){
 
-
+    let redirectService = ()=>{
+        window.location.href = props.redirectUrl
+    }
 
     return(
 
@@ -18,7 +20,7 @@ export default function DetailService(props){
                 </div>
                 <div className={styles.viewButton}>
                     <div className={styles.before}></div>
-                    <button className={styles.btn}>More Info</button>
+                    <button className={styles.btn} onClick={redirectService}>More Info</button>
                     <div className={styles.after}></div>
                 </div>
             </div>

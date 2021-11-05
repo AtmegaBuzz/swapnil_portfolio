@@ -42,7 +42,7 @@ export default function Header(){
                     loop
                 />
 
-                <a href="" className="contact-me-btn">Contact Me</a>
+                <a href="https://www.instagram.com/swapnil.shinde.s/" target="_blank" className="contact-me-btn">Contact Me</a>
             </div>
             </div>
         </div>
