@@ -23,7 +23,7 @@ export default function Header(){
 
     return(
 
-        <div id="particles-js" className="header-wrapper" style={{backgroundSize:"cover"}}>
+        <div className="header-wrapper" style={{backgroundSize:"cover"}}>
             <Particles
               className="particles"
               params={{
