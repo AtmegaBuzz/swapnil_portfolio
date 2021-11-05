@@ -130,6 +130,8 @@ nav ul li{
 }
 
 .particles > canvas{
+  width: 100vw !important;
+  height: 100% !important;
   position: absolute !important;
   z-index: inherit !important;
 }
