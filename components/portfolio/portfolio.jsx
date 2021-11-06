@@ -1,5 +1,4 @@
 import styles from './portfolio.module.css';
-import DetailPortfolio from './detailView/detailPortfolio';
 import Project from './project/project';
 import { useState } from 'react';
 

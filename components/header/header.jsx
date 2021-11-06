@@ -33,7 +33,8 @@ export default function Header(){
             />
             <div className="shadow">
             <div className="main-info">
-                <h1>Welcome To My Personal Portfolio</h1>
+                <h1>Cyber Spoof's Personal Portfolio</h1>
+                <h2 style={{display:"none"}}>cyber spoof personal portfolio website</h2>
                 <Typed
                     className="typed-text"
                     strings={["My Portfolio","React Js","Django Framework","Django Rest Framework","Web Scrapping"]}
