@@ -26,22 +26,28 @@ export default function Contact(){
         return true
     }
 
-    let onFormSubmit = (e)=>{
-        e.preventDefault()
+    // let onFormSubmit = (e)=>{
+    //     e.preventDefault()
         
-        if(clean_data(name,email,subject,desc) & !form_submitted){
-            console.log("done")
-            set_form_submitted(true)
-        }
-        else{
-            if(form_submitted){console.log("form submitted")}
-            else{
-                console.log("error")
-            }
-        }
+    //     if(clean_data(name,email,subject,desc) & !form_submitted){
+    //         console.log("done")
+    //         set_form_submitted(true)
+    //     }
+    //     else{
+    //         if(form_submitted){console.log("form submitted")}
+    //         else{
+    //             console.log("error")
+    //         }
+    //     }
 
+    // }
+
+    //  development phase
+    let onFormSubmit = (e)=>{
+        alert("form on development contact using instagram")
     }
 
+    
 
     return(
         <>

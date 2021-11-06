@@ -54,7 +54,7 @@ export default function Portfolio(){
             <div className={styles.projectsCont}>
                 {
                     projects.map((data)=>{
-                        return <Project showcase={showcase} {...data}/>
+                        return <Project key={data.id} showcase={showcase} {...data}/>
                     })
                 }
             </div>
