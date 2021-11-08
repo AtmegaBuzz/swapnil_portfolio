@@ -45,7 +45,6 @@ export default function Portfolio(){
 
     return(
         <div className={styles.portfolio}>
-            {inDetail && <DetailPortfolio setInDetail={setInDetail}/>}
             <div className={styles.heading}><p>My Projects</p></div>
             <div className={styles.projectsCont}>
                 {
