@@ -1,6 +1,5 @@
 import styles from './portfolio.module.css';
 import Project from './project/project';
-import { useState } from 'react';
 
 export default function Portfolio(){
 
@@ -11,7 +10,7 @@ export default function Portfolio(){
             text:"Society website for society with all notices, events management and charts.",
             url:'/mantra.png',
             github:'https://github.com/AtmegaBuzz/mantra_7hills',
-            viewsite:"https://www.instagram.com/tv/CTZfeZfII3c/?utm_source=ig_web_copy_link"
+            viewsite:"https://7hillsmantra.azurewebsites.net"
         },
         {
             id:2,
@@ -19,7 +18,7 @@ export default function Portfolio(){
             text:"A SPA webapp for listning and uploading songs, django + react with Django Rest Framework.",
             url:'/boa.png',
             github:'https://github.com/AtmegaBuzz/beatsofaribackend-master-deployed',
-            viewsite:"https://www.instagram.com/tv/CTZdDCYIQmK/?utm_source=ig_web_copy_link"
+            viewsite:"https://beatsofarijit.netlify.app"
         },
         {
             id:3,
@@ -35,15 +34,13 @@ export default function Portfolio(){
             text:"Personal Portfolio created using Next.js and Particle.js",
             url:'/personal.png',
             github:'https://github.com/AtmegaBuzz/swapnil_portfolio',
-            viewsite:"https://"
+            viewsite:""
         },
     ]
 
-    const [inDetail,setInDetail] = useState(false)
+    
 
-    let showcase = ()=>{
-        setInDetail(true)
-    }
+    
 
 
     return(
@@ -53,7 +50,7 @@ export default function Portfolio(){
             <div className={styles.projectsCont}>
                 {
                     projects.map((data)=>{
-                        return <Project key={data.id} showcase={showcase} {...data}/>
+                        return <Project key={data.id} {...data}/>
                     })
                 }
             </div>
