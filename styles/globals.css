@@ -153,19 +153,22 @@ nav ul li{
   width: 100%;
   height: 100%;
   z-index: 10;
-}
+} 
 
-.particles > canvas{
+.particles  canvas{
   width: 100vw !important;
   height: 100% !important;
   position: absolute !important;
-  z-index: inherit !important;
+  z-index: 100 !important;
+  opacity: 100%;
 }
 
 
 .tsparticles-canvas-el{
   position: absolute !important;
-  z-index: inherit;
+  width: 100vw !important;
+  z-index: 100 !important;
+  opacity: 100%;
 }
 
 

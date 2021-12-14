@@ -129,14 +129,17 @@
     }
 
     .image{
-        width: 150px;
-        height: 150px;
-        border-radius: 400px;
         border: 2px solid;
         border-color: rgb(214, 162, 31);
         padding: 2px;
         box-shadow: none;
-        
+    }
+    
+    .img_sizer{
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 900px;
     }
     
     

@@ -15,10 +15,10 @@ export default function About(){
                 <div className={styles.about_cont}>
                     <div className={styles.heading}>About Me</div>
                     <div className={styles.about_content}>
-                        <p className={styles.sub_about}>Hi,My name is Swapnil Shinde and Im a Fullstack Developer which you can see on my face and a Cyber Security enthusiast from Maharashtra, India</p>
+                        <p className={styles.sub_about}>Hi,My name is Swapnil Shinde, Im a Fullstack Developer and a Cyber Security enthusiast from Maharashtra, India</p>
                         <p className={styles.sub_sub_about}>Interest in Cyber Security and Understood OWASP top 10 which helped me in developing secure backends.</p>
                         <p className={styles.sub_sub_about}>I write about Cyber Security on my <a target="_blank" href="https://www.instagram.com/cyber.spoof/">instagram</a> blogpost to share my knowledge and to contribute in spreading awerness.</p>
-                        <p className={styles.sub_sub_about}>I'm a fullstack developer specialised in frontend (<a target="_blank" href="https://reactjs.org/">react</a>) and backend (<a target="_blank" href="https://www.djangoproject.com/">django</a>).</p>
+                        <p className={styles.sub_sub_about}>I'm a fullstack developer specialised in frontend (<a target="_blank" href="https://reactjs.org/">react</a>) and backend (<a target="_blank" href="https://www.djangoproject.com/">django</a>), also worked in web scrapping and have experience in creating bots,crawlers for Major platforms</p>
                         <div className={styles.links}>
                                 <a target="_blank" href="https://github.com/AtmegaBuzz"><GitHubIcon className={styles.sublinks}/></a>
                                 <a target="_blank" href="https://www.instagram.com/cyber.spoof/"><InstagramIcon className={styles.sublinks}/></a>
@@ -27,7 +27,9 @@ export default function About(){
                     </div>
                 </div>
                 <div className={styles.image_cont}>
-                    <Image className={styles.image} src="/myimg1round.jpg" width="500px" height="520px" alt=""/>
+                    <div className={styles.img_sizer}>
+                        <Image className={styles.image} src="/profilepic1.jpeg" width="410px" height="540px" alt=""/>
+                    </div>
                 </div>
                 
         </div>

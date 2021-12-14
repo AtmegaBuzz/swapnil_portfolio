@@ -27,6 +27,9 @@ export default function Contact(){
     }
 
     // let onFormSubmit = (e)=>{
+
+        
+
     //     e.preventDefault()
         
     //     if(clean_data(name,email,subject,desc) & !form_submitted){
@@ -44,7 +47,7 @@ export default function Contact(){
 
     //  development phase
     let onFormSubmit = (e)=>{
-        alert("form on development contact using instagram")
+        alert("Why forms if we have Instagram")
     }
 
     
