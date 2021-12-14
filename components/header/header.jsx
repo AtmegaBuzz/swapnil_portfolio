@@ -8,7 +8,7 @@ export default function Header(){
     return(
 
         <div className="header-wrapper" style={{backgroundSize:"cover"}}>
-            <Particles
+            {/* <Particles
               className="particles"
               style={{ position: "absolute",zindex:100,opacity:"100%"}}
               height="95%"
@@ -33,7 +33,7 @@ export default function Header(){
                 }
           
               }}
-            />
+            /> */}
 
             
           
