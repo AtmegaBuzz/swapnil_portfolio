@@ -22,7 +22,7 @@
     "react-scroll": "^1.8.4",
     "react-scroller": "^0.0.3",
     "react-typed": "^1.2.0",
-    "tsparticles": "^1.37.0"
+    "tsparticles": "^1.37.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

@@ -8,7 +8,7 @@ export default function Header(){
     return(
 
         <div className="header-wrapper" style={{backgroundSize:"cover"}}>
-            {/* <Particles
+            <Particles
               className="particles"
               style={{ position: "absolute",zindex:100,opacity:"100%"}}
               height="95%"
@@ -33,21 +33,9 @@ export default function Header(){
                 }
           
               }}
-            /> */}
+            />
 
-            <Particles
-                    params={{
-                      particles: {
-                        number: {
-                          value:70,
-                          density: {
-                            enable: true,
-                            value_area: 1000,
-                          }
-                        },
-                      },
-                    }}
-                  />
+            
           
             <div className="shadow">
             <div className="main-info">
