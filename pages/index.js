@@ -15,7 +15,8 @@ export default function HomePage(){
   useEffect(()=>{
 
     Aos.init({
-        duration:1400
+        duration:1400,
+        offset: 300,
     });
 
    },[])
