@@ -10,7 +10,7 @@ export default function Project(props){
     }
 
     return(
-        <div className={styles.project}>
+        <div data-aos="fadeout"  className={styles.project}>
                     <div className={styles.Image} style={{backgroundImage:`url(${props.url})`}}>
                         
                     </div>

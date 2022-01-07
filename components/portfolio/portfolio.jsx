@@ -10,7 +10,8 @@ export default function Portfolio(){
             text:"Society website for society with all notices, events management and charts.",
             url:'/mantra.png',
             github:'https://github.com/AtmegaBuzz/mantra_7hills',
-            viewsite:"https://7hillsmantra.azurewebsites.net"
+            viewsite:"https://7hillsmantra.azurewebsites.net",
+            
         },
         {
             id:2,
@@ -18,7 +19,8 @@ export default function Portfolio(){
             text:"A SPA webapp for listning and uploading songs, django + react with Django Rest Framework.",
             url:'/boa.png',
             github:'https://github.com/AtmegaBuzz/beatsofaribackend-master-deployed',
-            viewsite:"https://beatsofarijit.netlify.app"
+            viewsite:"https://beatsofarijit.netlify.app",
+            
         },
         {
             id:3,
@@ -26,7 +28,8 @@ export default function Portfolio(){
             text:"A buisness management tool for managing and assingning tasks to employee's.",
             url:'/afktm.png',
             github:'https://github.com/aiforkidsofficial/app.git',
-            viewsite:"https://"
+            viewsite:"https://",
+           
         },
         {
             id:4,
@@ -34,7 +37,8 @@ export default function Portfolio(){
             text:"Personal Portfolio created using Next.js and Particle.js",
             url:'/personal.png',
             github:'https://github.com/AtmegaBuzz/swapnil_portfolio',
-            viewsite:""
+            viewsite:"",
+            
         },
     ]
 

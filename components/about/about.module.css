@@ -80,6 +80,7 @@
     width: 40%;
     height: 100%;
     padding: 50px;
+    overflow: hidden;
 }
 
 .image{

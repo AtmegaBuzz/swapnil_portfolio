@@ -9,7 +9,7 @@ export default function DetailService(props){
 
     return(
 
-        <div className={styles.workCont}>
+        <div data-aos="flip-up" className={styles.workCont}>
             <div className={styles.image}>
                 <Image src={props.url} width={props.width} height={props.height}  alt={props.heading} />
             </div>

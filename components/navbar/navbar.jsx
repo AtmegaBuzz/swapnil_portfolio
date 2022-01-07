@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import styles from './navbar.module.css'
 import stylesAbout from '../about/about.module.css';
 import stylesContact from '../contact/contact.module.css';
@@ -7,6 +8,7 @@ import stylesPortfolio from '../portfolio/portfolio.module.css'
 
 import MenuIcon from '@mui/icons-material/Menu';
 import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Navbar(){
 
@@ -27,7 +29,9 @@ export default function Navbar(){
         e.target.classList.toggle("active")
         let offset = document.getElementsByClassName(scrollInfo[whereTogo])[0].offsetTop
         window.scrollTo(0,offset-100)
-    }
+    } 
+
+   
 
     return(
         <nav className="navbar p-3 navbar-expand-lg navbar-dark bg-dark">

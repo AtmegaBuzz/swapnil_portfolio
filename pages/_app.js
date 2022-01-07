@@ -47,7 +47,6 @@ export default function MyApp({Component,pageProps}){
                     crossorigin="anonymous"
                     />
                   
-               
           </Head>
           <Component {...pageProps} />
     </>  
