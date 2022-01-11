@@ -5,31 +5,27 @@ import DetailSkill from './detailskill/detailskill';
 export default function Skills(){
 
     const skills = [
+    
         {
             id:1,
-            title:"html",
-            percentage:80
+            title:"Frontend Development",
+            percentage:58
+        },
+        {
+            id:1,
+            title:"Backend Development",
+            percentage:87
         },
         {
             id:2,
-            title:"css",
-            percentage:65
+            title:"Automation and Testing",
+            percentage:91
         },
         {
-            id:3,
-            title:"javascript",
-            percentage:84
+            id:2,
+            title:"Embedded system programming",
+            percentage:72
         },
-        {
-            id:4,
-            title:"python",
-            percentage:95
-        },
-        {
-            id:5,
-            title:"MySql",
-            percentage:60
-        }
     ]
 
 
@@ -51,7 +47,7 @@ export default function Skills(){
             <div data-aos="fade-up" className={styles.info}>
                 <div className={styles.textskills}>
                     <div className={styles.infoheading}>My Skills and Experience</div>
-                    <p className={styles.infotext}>Worked in Django and have a deep understanding of backend and web technologies such as Apis, token authentication, decentralized database, and security mechanisms, I also have a grip on the Next Js Framework for Seo Optimized web apps in the frontend. <br /><br /> Have a understanding of deploying the application in Microsoft Azure and Digital Ocean.</p>
+                    <p className={styles.infotext}>Worked in Django and have a deep understanding of backend and web technologies such as Apis, token authentication, database caching, decentralized database, and security mechanisms, I also have a grip on the Next Js Framework for Seo Optimized web apps in the frontend. <br /><br /> Have a understanding of deploying the application in Microsoft Azure and Digital Ocean.<br/><br/> On the other hand scrapping websites , making bots and software for platforms is what i do as a freelancer.</p>
                     <button className={styles.btn} onClick={redirectProtfolio}>Read More</button>
                 </div> 
                 <div className={styles.dynamicskills}>

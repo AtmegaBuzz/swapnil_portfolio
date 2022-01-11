@@ -27,8 +27,8 @@ export default function Services(){
         },
         {
             id:3,
-            title:"Web Scrapping",
-            description:"Scrapping data using Beautiful Soup and Selenium, develop Bots for any platform.",
+            title:"Automation",
+            description:"Automation, web scrapping and developing bot for major platforms and websites.",
             more:"",
             url:"/selenium.png",
             width:"140px",
