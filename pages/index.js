@@ -16,7 +16,7 @@ export default function HomePage(){
 
     Aos.init({
         duration:1400,
-        offset: 300,
+        offset: 250,
     });
 
    },[])

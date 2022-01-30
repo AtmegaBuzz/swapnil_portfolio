@@ -23,7 +23,7 @@ export default function Skills(){
         },
         {
             id:2,
-            title:"Embedded system programming",
+            title:"Embedded systems",
             percentage:72
         },
     ]

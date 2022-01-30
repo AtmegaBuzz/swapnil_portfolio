@@ -31,6 +31,19 @@ export default function Navbar(){
         window.scrollTo(0,offset-100)
     } 
 
+
+    useEffect(()=>{
+        window.addEventListener("scroll",()=>{
+            if (window.scrollY < 180 && window.innerWidth>700) {
+                document.getElementsByClassName("navbar")[0].style.height = "15vh";   
+                document.getElementsByClassName("navbar")[0].style.boxShadow = null   
+              } else if((window.scrollY > 180 && window.innerWidth>700)){
+                document.getElementsByClassName("navbar")[0].style.height = "10vh";
+                document.getElementsByClassName("navbar")[0].style.boxShadow = "0 0 10px black"
+              }
+            
+        })
+    },[])
    
 
     return(

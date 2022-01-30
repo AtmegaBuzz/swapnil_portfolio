@@ -17,6 +17,9 @@ body {
 }
 
 /*  nav links */
+.navbar{
+  transition: all 0.3s ease-in-out;
+}
 
 nav{
   z-index: 500;
@@ -136,6 +139,21 @@ nav ul li{
   font-weight: 600;
   border-radius: 3px;
 }
+
+.contact-me-btn-absolute{
+  position: absolute;
+  bottom: 0;
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
 
 .main-info h1, .contact-me-btn, .typed-text{
   text-align: center;

@@ -1,9 +1,13 @@
 import Typed from "react-typed"
 import Particles from 'react-particles-js';
+import { useEffect } from "react";
+
 
 export default function Header(){
+  
+  
 
- 
+    
 
     return(
 
@@ -43,7 +47,7 @@ export default function Header(){
                 <h2 style={{display:"none"}}>cyber spoof personal portfolio website</h2>
                 <Typed
                     className="typed-text"
-                    strings={["My Portfolio","React Js","Django Framework","Django Rest Framework","Web Scrapping"]}
+                    strings={["My Portfolio","React Js","Django Framework","Django Rest Framework","Web Scrapping","Automation"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
