@@ -28,7 +28,7 @@ export default function Portfolio(){
             text:"A buisness management tool for managing and assingning tasks to employee's.",
             url:'/afktm.png',
             github:'https://github.com/aiforkidsofficial/app.git',
-            viewsite:"https://",
+            viewsite:null,
            
         },
         {
@@ -37,7 +37,25 @@ export default function Portfolio(){
             text:"Personal Portfolio created using Next.js and Particle.js",
             url:'/personal.png',
             github:'https://github.com/AtmegaBuzz/swapnil_portfolio',
-            viewsite:"",
+            viewsite:null,
+            
+        },
+        {
+            id:5,
+            heading:"OSMD Cab APP Project",
+            text:"Freelance Project for DTU Student Divyanshu Jain.",
+            url:'/osmd.png',
+            github:'https://github.com/AtmegaBuzz/osmd',
+            viewsite:null,
+            
+        },
+        {
+            id:6,
+            heading:"Telegram Cadence",
+            text:"A Marketing tool For small scale buisness on Telegram Marketing.",
+            url:'/tcadence.png',
+            github:'https://github.com/vscaleconsulting/TelegramCadence.git',
+            viewsite:null,
             
         },
     ]
@@ -49,7 +67,7 @@ export default function Portfolio(){
 
     return(
         <div className={styles.portfolio}>
-            <div className={styles.heading}><p>My Projects</p></div>
+            <div className={styles.heading}><p>MY PROJECTS</p></div>
             <div className={styles.projectsCont}>
                 {
                     projects.map((data)=>{

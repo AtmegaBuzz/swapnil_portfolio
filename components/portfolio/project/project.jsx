@@ -1,5 +1,6 @@
 import styles from './project.module.css'
 import Image from 'next/image';
+import { WindowSharp } from '@mui/icons-material';
 export default function Project(props){
 
     const github = ()=>{
@@ -7,6 +8,9 @@ export default function Project(props){
     }
     const view = ()=>{
         window.location.href = props.viewsite
+    }
+    const noView = ()=>{
+        window.alert("Site Not Deployed")
     }
 
     return(
@@ -20,7 +24,11 @@ export default function Project(props){
                             <p className={styles.text}>{props.text}</p>
                         </div>
                         <div className={styles.btn}>
-                            <button onClick={view}>View Site</button>
+                            {
+                                props.viewsite==null 
+                                ? <button onClick={noView}>View Site</button>
+                                : <button onClick={view}>View Site</button>
+                            }
                             <button onClick={github}>View Github</button>
                         </div>
                     </div>

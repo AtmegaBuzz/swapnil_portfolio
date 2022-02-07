@@ -10,14 +10,14 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dancing+Script:wght@400;500&family=Open+Sans:wght@300&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Zen+Antique&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
 .heading p{
-    font-size: 4rem;
+    font-size: 3rem;
     /* font-weight: 600; */
     color: rgb(60, 52, 61);
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 .projectsCont{
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 30px;
     display: flex;
