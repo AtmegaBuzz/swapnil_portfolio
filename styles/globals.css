@@ -191,6 +191,20 @@ nav ul li{
 
 
 
+.links{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+.sublinks{
+  margin-right: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.sublinks:hover{
+  color: rgb(255, 196, 0);
+}
+
 @media (max-width: 470px){
   .main-info h1{
     font-size: 1.7rem;

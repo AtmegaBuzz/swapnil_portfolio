@@ -1,7 +1,4 @@
 import styles from './about.module.css'
-import GitHubIcon from '@mui/icons-material/GitHub';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import Linkedin from '@mui/icons-material/LinkedIn'
 import Image from "next/image"
 
 
@@ -18,11 +15,8 @@ export default function About(){
                         <p className={styles.sub_sub_about}>I write about Cyber Security on my <a target="_blank" href="https://www.instagram.com/cyber.spoof/">instagram</a> blogpost to share my knowledge and to contribute in spreading awerness.</p>
                         <p className={styles.sub_sub_about}>Some other niches are working as a <a href="https://www.fiverr.com/shindeswapnil">freelancer</a> and part time python dev intern at Vscale</p>
                         <p className={styles.sub_sub_about}>I'm a fullstack developer specialised in frontend (<a target="_blank" href="https://reactjs.org/">react</a>) and backend (<a target="_blank" href="https://www.djangoproject.com/">django</a>), also worked in web scrapping and have experience in creating bots,crawlers for Major platforms</p>
-                        <div className={styles.links}>
-                                <a target="_blank" href="https://github.com/AtmegaBuzz"><GitHubIcon className={styles.sublinks}/></a>
-                                <a target="_blank" href="https://www.instagram.com/cyber.spoof/"><InstagramIcon className={styles.sublinks}/></a>
-                                <a target="_blank" href="https://www.linkedin.com/in/swapnil-shinde-5ba45118b/"><Linkedin className={styles.sublinks}/></a>
-                        </div>
+                        
+                        <a className={styles.resume} href="/resume.pdf" download>RESUME</a>
                     </div>
                 </div>
                 <div data-aos="fade-down" className={styles.image_cont}>

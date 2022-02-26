@@ -1,7 +1,9 @@
 import Typed from "react-typed"
 import Particles from 'react-particles-js';
 import { useEffect } from "react";
-
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import Linkedin from '@mui/icons-material/LinkedIn'
 
 export default function Header(){
   
@@ -12,32 +14,7 @@ export default function Header(){
     return(
 
         <div className="header-wrapper" style={{backgroundSize:"cover"}}>
-            {/* <Particles
-              className="particles"
-              style={{ position: "absolute",zindex:100,opacity:"100%"}}
-              height="95%"
-              width="100vw"
-              params={{
-                particles:{
-                  number:{
-                    value:29,
-                    density:{
-                      enable:true,
-                      value_area:800
-                    }
-                  },
-                  shape:{
-                    type:"circle",
-                    stroke:{
-                      width:6,
-                      color:"#f9ab00"
-                    }
-                  },
-                  
-                }
-          
-              }}
-            /> */}
+            
 
             
           
@@ -54,6 +31,11 @@ export default function Header(){
                 />
 
                 <a href="https://www.instagram.com/swapnil.shinde.s/" target="_blank" className="contact-me-btn">Contact Me</a>
+                <div className="links">
+                    <a target="_blank" href="https://github.com/AtmegaBuzz"><GitHubIcon className="sublinks"/></a>
+                    <a target="_blank" href="https://www.instagram.com/cyber.spoof/"><InstagramIcon className="sublinks"/></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/swapnil-shinde-5ba45118b/"><Linkedin className="sublinks"/></a>
+                </div>
             </div>
             </div>
         </div>
