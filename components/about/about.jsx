@@ -8,8 +8,8 @@ export default function About(){
         <div className={styles.about}>
                 
                 <div className={styles.about_cont}>
-                    <div data-aos="fade-up" className={styles.heading}>About Me</div>
-                    <div data-aos="fade-up" className={styles.about_content}>
+                    <div data-aos="fade-right" data-aos-once="true" className={styles.heading}>About Me</div>
+                    <div data-aos="fade-right" data-aos-once="true" className={styles.about_content}>
                         <p className={styles.sub_about}>Hi,My name is Swapnil Shinde, Im a Fullstack Developer and a Cyber Security enthusiast from Maharashtra, India</p>
                         <p className={styles.sub_sub_about}>Interest in Cyber Security and Understood OWASP top 10 which helped me in developing secure backends.</p>
                         <p className={styles.sub_sub_about}>I write about Cyber Security on my <a target="_blank" href="https://www.instagram.com/cyber.spoof/">instagram</a> blogpost to share my knowledge and to contribute in spreading awerness.</p>
@@ -19,7 +19,7 @@ export default function About(){
                         <a className={styles.resume} href="/resume.pdf" target="_blank">RESUME</a>
                     </div>
                 </div>
-                <div data-aos="fade-down" className={styles.image_cont}>
+                <div data-aos="fade-left" data-aos-once="true" className={styles.image_cont}>
                     <div className={styles.img_sizer}>
                         <Image className={styles.image} src="/profilepic1.jpeg" width="410px" height="540px" alt=""/>
                     </div>
