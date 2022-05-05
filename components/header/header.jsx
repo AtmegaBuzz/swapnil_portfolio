@@ -30,7 +30,7 @@ export default function Header(){
                     loop
                 />
 
-                <a href="https://www.instagram.com/swapnil.shinde.s/" target="_blank" className="contact-me-btn">Contact Me</a>
+                <a href="https://www.instagram.com/sky.is.very.blue/" target="_blank" className="contact-me-btn">Contact Me</a>
                 <div className="links">
                     <a target="_blank" href="https://github.com/AtmegaBuzz"><GitHubIcon className="sublinks"/></a>
                     <a target="_blank" href="https://www.instagram.com/cyber.spoof/"><InstagramIcon className="sublinks"/></a>
