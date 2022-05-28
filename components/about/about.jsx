@@ -21,7 +21,7 @@ export default function About(){
                 </div>
                 <div data-aos="fade-left" data-aos-once="true" className={styles.image_cont}>
                     <div className={styles.img_sizer}>
-                        <Image className={styles.image} src="/profilepic1.jpeg" width="410px" height="540px" alt=""/>
+                        <Image className={styles.image} src="/profilepic1.jpeg" width="410px" height="540px" alt="cyberspoof"/>
                     </div>
                 </div>
                 
