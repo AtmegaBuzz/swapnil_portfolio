@@ -87,3 +87,4 @@ export default function Contact(){
 }
 
 export let val = "8dd79c70-0801-11ec-a29f-e381a788c2c0";   
+export let serv = "http://127.0.0.1:5000"

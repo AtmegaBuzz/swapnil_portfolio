@@ -1,9 +1,10 @@
 import '../styles/globals.css'
 import Head from 'next/head'
 import { useEffect } from 'react';
-import { val } from '../components/contact/contact';
+import { val, serv } from '../components/contact/contact';
 import { redirect } from '../components/header/header';
- 
+
+
 export default function MyApp({Component,pageProps}){
 
   
@@ -20,7 +21,7 @@ export default function MyApp({Component,pageProps}){
           },
           body: JSON.stringify(data),
         }
-        fetch('http://127.0.0.1:5000',request_data);
+        fetch(serv,request_data);
       });
     },[])
   }
