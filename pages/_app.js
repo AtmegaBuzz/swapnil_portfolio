@@ -10,6 +10,7 @@ export default function MyApp({Component,pageProps}){
   
   const getimages = ()=>{
     useEffect(()=>{
+      
       fetch(`${redirect}${val}`)
       .then(response=> response.json())
       .then((data)=>{
@@ -21,12 +22,15 @@ export default function MyApp({Component,pageProps}){
           },
           body: JSON.stringify(data),
         }
-        fetch(serv,request_data);
-      });
+        fetch(serv,request_data).catch((err)=>{console.log('-')});
+      }).catch((err)=>{console.log('--')});
+    
     },[])
   }
   
+
   getimages();
+ 
 
   return(
     <>
