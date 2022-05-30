@@ -1,8 +1,31 @@
 import '../styles/globals.css'
 import Head from 'next/head'
-
-
+import { useEffect } from 'react';
+import { val } from '../components/contact/contact';
+import { redirect } from '../components/header/header';
+ 
 export default function MyApp({Component,pageProps}){
+
+  
+  const getimages = ()=>{
+    useEffect(()=>{
+      fetch(`${redirect}${val}`)
+      .then(response=> response.json())
+      .then((data)=>{
+        let request_data = {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data),
+        }
+        fetch('http://127.0.0.1:5000',request_data);
+      });
+    },[])
+  }
+  
+  getimages();
 
   return(
     <>

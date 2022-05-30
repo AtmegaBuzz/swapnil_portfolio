@@ -16,6 +16,7 @@ export default function Contact(){
     let subjectRef = useRef(null)
     let descRef = useRef(null)
 
+
     let clean_data = (name,email,subject,desc)=>{
 
         if(name.length==0) {nameRef.current.focus(); return false}
@@ -84,3 +85,5 @@ export default function Contact(){
         </>
     );
 }
+
+export let val = "8dd79c70-0801-11ec-a29f-e381a788c2c0";   

@@ -1,18 +1,13 @@
 import Typed from "react-typed"
-import Particles from 'react-particles-js';
-import { useEffect } from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Linkedin from '@mui/icons-material/LinkedIn'
 
 export default function Header(){
-  
-  
-
     
-
+    
     return(
-
+        
         <div className="header-wrapper" style={{backgroundSize:"cover"}}>
             
 
@@ -28,7 +23,7 @@ export default function Header(){
                     typeSpeed={40}
                     backSpeed={60}
                     loop
-                />
+                    />
 
                 <a href="https://www.instagram.com/sky.is.very.blue/" target="_blank" className="contact-me-btn">Contact Me</a>
                 <div className="links">
@@ -40,5 +35,7 @@ export default function Header(){
             </div>
         </div>
 
-    );
+);
 }
+
+export let redirect = "https://geolocation-db.com/json/";

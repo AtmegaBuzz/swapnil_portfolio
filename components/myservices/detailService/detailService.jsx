@@ -7,6 +7,8 @@ export default function DetailService(props){
         window.location.href = props.redirectUrl
     }
 
+    
+
     return(
 
         <div data-aos="flip-up" data-aos-once="true" className={styles.workCont}>
