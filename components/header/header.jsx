@@ -16,10 +16,10 @@ export default function Header(){
             <div className="shadow">
             <div className="main-info">
                 <h1>Cyber Spoof's Personal Portfolio</h1>
-                <h2 style={{display:"none"}}>cyber spoof personal portfolio website</h2>
+                <h2 style={{display:"none"}}>swapnil shinde</h2>
                 <Typed
                     className="typed-text"
-                    strings={["My Portfolio","React Js","Django Framework","Django Rest Framework","Web Scrapping","Automation"]}
+                    strings={["Web Developer","Web Scrapping","Automation","Web Security"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
