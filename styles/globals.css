@@ -118,7 +118,10 @@ nav ul li{
 }
 
 .main-info h1{
-  color: var(--primary-orange);
+  color: #ecb365;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
   /* text-transform: uppercase; */
 }
 

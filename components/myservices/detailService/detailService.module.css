@@ -1,7 +1,7 @@
 .workCont{
     display: flex;
     flex-direction: column;
-    width: 370px;
+    width: 380px;
     min-height: 450px;
     background-color: white;
     border-bottom: 10px solid rgb(255, 196, 0);

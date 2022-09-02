@@ -15,8 +15,7 @@ export default function Header(){
           
             <div className="shadow">
             <div className="main-info">
-                <h1>Cyber Spoof's Personal Portfolio</h1>
-                <h2 style={{display:"none"}}>swapnil shinde</h2>
+                <h1>Swapnil Shinde</h1>
                 <Typed
                     className="typed-text"
                     strings={["Web Developer","Web Scrapping","Automation","Web Security"]}
@@ -37,5 +36,3 @@ export default function Header(){
 
 );
 }
-
-export let redirect = "https://geolocation-db.com/json/";

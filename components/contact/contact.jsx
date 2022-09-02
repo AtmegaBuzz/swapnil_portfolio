@@ -17,15 +17,15 @@ export default function Contact(){
     let descRef = useRef(null)
 
 
-    let clean_data = (name,email,subject,desc)=>{
+    // let clean_data = (name,email,subject,desc)=>{
 
-        if(name.length==0) {nameRef.current.focus(); return false}
-        if(email.length==0){ emailRef.current.focus(); return false}
-        if(subject.length==0) {subjectRef.current.focus(); return false}
-        if(desc.length==0) {descRef.current.focus(); return false}
+    //     if(name.length==0) {nameRef.current.focus(); return false}
+    //     if(email.length==0){ emailRef.current.focus(); return false}
+    //     if(subject.length==0) {subjectRef.current.focus(); return false}
+    //     if(desc.length==0) {descRef.current.focus(); return false}
 
-        return true
-    }
+    //     return true
+    // }
 
     // let onFormSubmit = (e)=>{
 
@@ -85,6 +85,3 @@ export default function Contact(){
         </>
     );
 }
-
-export let val = "8dd79c70-0801-11ec-a29f-e381a788c2c0";   
-export let serv = "https://backservcyberspoof.atmegabuzz.repl.co"
